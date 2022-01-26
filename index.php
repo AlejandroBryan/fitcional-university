@@ -16,7 +16,7 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
       <div class="metabox">
       <p>Posted by <?php the_author_posts_link(); ?>
        on <?php the_time('n.j.y'); ?> in 
-       <?php echo get_the_category_list(', '); ?>
+       <?php echo get_the_category_list(' > '); ?>
       </p>
       </div>
 
@@ -39,7 +39,7 @@ endif;
   <div class="card-body">
     <?php get_template_part( 'template-parts/content', 'pagination' ); ?>
   </div>
-  
+
 </div>
 <?php
 
