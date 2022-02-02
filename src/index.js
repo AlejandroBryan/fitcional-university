@@ -1,5 +1,8 @@
 import "./sass/style.scss"
 
+// bootstrap
+import 'bootstrap';
+
 // Our modules / classes
 import MobileMenu from "./modules/MobileMenu"
 import HeroSlider from "./modules/HeroSlider"
